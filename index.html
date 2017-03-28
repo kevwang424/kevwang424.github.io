@@ -6,18 +6,18 @@
       src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
       crossorigin="anonymous"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/css/tether.min.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jssor-slider/22.1.8/jssor.slider.min.js"></script>
     <link rel="stylesheet" href="./css/stylesheets/bootstrap-social.css">
+    <link rel="stylesheet" href="./css/stylesheets/application.scss">
     <title>Kevin Wang</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
-    </style>
+    <style>@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');</style>
   </head>
+
 
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -30,7 +30,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/" title="Go to homepage">KW</a>
+            <a class="navbar-brand" href="/" title="Go to homepage" class="logo">KW</a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
            <ul class="nav navbar-nav pull-right">
@@ -47,14 +47,28 @@
 
     <div class="container-fluid" id="about">
       <div class="row">
-        <div class="col col-md-4 selfie">
+        <div class="col-md-4 selfie">
           <img src="./css/images/self.jpg" alt="Kevin Wang" class="img-rounded" width="333" height="225">
         </div>
-        <div class="col col-md-8">
-          <h1>About</h1>
+        <div class="col-md-8">
+          <h1>About Me</h1>
           <div>
             <p>Born in a faraway land called New York, Kevin Wang is truly one in a million (seriously, search "Kevin Wang"). He is a Boston University graduate with a degree in Economics and Business Administration who took a CS course the last semester of college and was smitten. His love for logic and troubleshooting problems and quick learning allowed him to excel at all his jobs. His latest role was an IT business analyst, but now he has leveled up and has become a web developer.</p>
             <p>Kevin has written in Ruby, JavaScript and HTML. In addition to using Rails, CSS, React, Redux, JSON, jQuery, and SQL. He continues to add more knowledge to his aresenal. Stay tuned...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-md-8 col-md-offset-2">
+          <h1>Hot off the server!</h1>
+          <div class="well">
+            <img src="./css/images/DevveD.png" alt="Devved" height="200px">
+            <p>
+              Devved is a Software-as-a-service Rails app that developers of all levels can join and meet other developers! Click <a href="devved.html">HERE</a> to learn more.
+            </p>
           </div>
         </div>
       </div>
