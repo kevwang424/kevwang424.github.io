@@ -43,6 +43,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+.card-block {
+  margin-bottom: 10px;
+}
+
 /*Connect four*/
 #board {
   color: blue;
